@@ -1,0 +1,35 @@
+footer {
+	overflow: auto;
+	margin-top: 1rem;
+	padding:  1rem 0 5rem 0;
+
+	.citation {
+		padding: 1.5rem 0;
+		border-top: 1px solid $brown-gold;
+		border-bottom: 1px solid $brown-gold;
+		margin-bottom: 2.5rem;
+		font-size: 0.8rem;
+		text-align: center;
+		@media screen and (max-width: $break-large) {
+			font-size: 0.7rem;
+			padding: 1rem 1.3rem 0 1.3rem;
+		}
+		cite {
+			display: block;
+			padding: 1rem 0;
+			a {
+				color: #fce5c3;
+				font-weight: 600;
+				font-size: 1rem;
+				font-style: normal;
+				text-decoration: none;
+				@media screen and (max-width: $break-large) {
+					font-size: 0.8rem;
+				}
+				&:hover {
+					font-style: italic;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+
+div.epigraph, div.dedication {
+	padding-bottom: 1rem;
+
+	font-size: 0.8rem;
+	line-height: 1rem;
+	text-align: center;
+    height: 50%;
+    @media screen and (max-width: $break-large) {
+        padding: 0 1.5rem 1rem 1.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+div.dedication {
+	border-bottom: 1px solid $brown-gold;
+}
+
+.part-heading {
+	margin-top: 3rem;
+}
+
+.part-number, .part-title {
+	font-family: "Times New Roman", Times, serif;
+	display: inline-block;
+}
+
+.part-number {
+	color: $brown-gold;
+	font-size: 7rem;
+	font-weight: 500;
+	text-shadow: 3px 3px #000;
+	vertical-align: top;
+	line-height: 50px;
+	@media screen and (max-width: $break-xlarge) {
+		padding-left: 2rem;
+	}
+	@media screen and (max-width: $break-large) {
+		font-size: 4rem;
+		padding-left: 1.5rem;
+	}
+    @media screen and (max-width: $break-sm) {
+        font-size: 3rem;
+		line-height: 0.9;
+		padding-left: 2%;
+    }
+}
+
+.part-title {
+	padding: 0rem 0 2rem 7%;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 5rem;
+	text-shadow: 3px 3px #000;
+	vertical-align: top;
+	line-height: 35px;
+	@media screen and (max-width: $break-xlarge) {
+		padding-left: 1.8rem;
+	}
+	@media screen and (max-width: $break-large) {
+		font-size: 3rem;
+		padding-left: 2rem;
+	}
+    @media screen and (max-width: $break-sm) {
+        font-size: 1.9rem;
+		line-height: 1;
+		padding: 0 0 0 1.5%;
+    }
+}
+
+.part-title em {
+	color: #fce5c3;
+}
