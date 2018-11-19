@@ -5,7 +5,9 @@ For the midterm for this course, we were given the .jpg file below, and were ask
 
 For the Final, I extended the work done for the midterm.  
 1) I improved the formatting of the page so that it is truly responsive for differing viewport sizes.
-2) I added footnotes that, when clicked, display a pop-up notecard with T.S. Eliot's commentary or Context commentary.  Some of the text on the notecards are fairly long.
+2) I added footnotes that, when clicked, 
+      - display a pop-up notecard with T.S. Eliot's commentary or Context commentary.  The text on some notecards can be fairly long.
+      - underline the relevant text in the poem.
 3) Used a google font for the notecards.
 4) Notecards will scroll vertically if text overflows the notecard space.
 5) Notecards will move around the screen if you mousedown and mousemove on them.
