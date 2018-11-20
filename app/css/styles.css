@@ -385,31 +385,34 @@ div.dedication {
   position: sticky;
   top: 0;
   left: 100%;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.1rem;
+  height: 1.4rem;
   background: #fdf7ef;
   border: 2px solid #967841;
   border-radius: 50%;
   text-align: center;
-  line-height: 1.2rem;
+  vertical-align: middle;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1rem;
   cursor: pointer;
 }
 
 @media screen and (max-width: 875px) {
   .closer {
-    left: 100%;
+    left: 95%;
   }
 }
 
 @media screen and (max-width: 670px) {
   .closer {
-    left: 99%;
+    left: 95%;
   }
 }
 
 @media screen and (max-width: 625px) {
   .closer {
-    left: 99%;
+    left: 94%;
   }
 }
 

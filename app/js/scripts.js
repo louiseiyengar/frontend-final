@@ -1,7 +1,7 @@
 // --- Initialize Global variables and constants --//
 const closeNote = `
 <div class="closer" href="#">
-<div class="closex">✖︎</div>
+<div class="closex">X</div>
 </div>
 `
 var boolNoteExists = false;
