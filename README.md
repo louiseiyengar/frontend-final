@@ -1,6 +1,8 @@
 # frontend-final
 Code for Final Project in Front End Foundations course
 
+URL for this project: http://oit2.scps.nyu.edu/~iyengarl/final/app/
+
 For the midterm for this course, we were given the .jpg file below, and were asked to create a web page to display the design.  I chose the design for Part I of T.S. Eliot's The Waste Land.  The image for is displayed at the end of this file.
 
 For the Final, I extended the work done for the midterm.  
@@ -11,6 +13,8 @@ For the Final, I extended the work done for the midterm.
 3) Used a google font for the notecards.
 4) Notecards will scroll vertically if text overflows the notecard space.
 5) Notecards will move around the screen if you mousedown and mousemove on them.
+6) T.S. Eliot's notes and the Context text were pulled from this website:
+https://wasteland.windingway.org/poem
 
 .jpg design for this page:
 <p align="center"><img src="/readme/1-the burial of the dead-small.jpg" /></p>
