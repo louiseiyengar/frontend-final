@@ -6,8 +6,8 @@
     cursor: pointer;
     font-size: 0.8rem;
     margin-left: 0.1rem;
-    @media screen and (max-width: $break-large) {
-        font-size: 0.7rem;
+    @media screen and (max-width: $break-xlarge) {
+        font-size: 0.6rem;
     }
 }
 
@@ -48,11 +48,10 @@
 }
 
 .infoNote h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid red;
-    overflow: hidden;
     @media screen and (max-width: $break-large) {
         font-size: 1.5rem;
     }
@@ -88,7 +87,7 @@
 .closer {
     position: sticky;
     top: 0;
-    left: 100%;
+    left:100%;
     width: 1.5rem;
     height: 1.5rem;
     background: $white-background;
@@ -98,20 +97,12 @@
     line-height: 1.2rem;
     cursor: pointer;
     @media screen and (max-width: $break-large) {
-        margin-left: 90%;
+        left: 100%;
     }
     @media screen and (max-width: $break-med) {
-        margin-left: 85%;
+        left: 99%;
     }
     @media screen and (max-width: $break-sm) {
-        margin-left: 75%;
-        ;
-    }
-}
-
-.closex .close {
-    display: none;
-    @media screen and (max-width: $break-large) {
-        display: inline;
+        left: 99%;
     }
 }
